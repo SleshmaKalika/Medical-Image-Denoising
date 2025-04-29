@@ -1,11 +1,15 @@
-Medical Image Denoising Using Deep Learning
+#Medical Image Denoising Using Deep Learning
+
 Project Overview:
+
 Medical images, such as MRI scans, CT scans, and ultrasound images, are often noisy due to various factors like hardware limitations, motion artifacts, or patient movement. Noise can significantly affect the quality of the images and make it challenging to interpret the results, potentially leading to misdiagnoses. The goal of this project is to develop a deep learning model that can denoise medical images while preserving important details for accurate diagnosis.
 
 Core Problem:
+
 The challenge is to reduce noise in medical images without losing important structural or diagnostic information. The denoising model needs to be effective at removing noise (like Gaussian noise) while maintaining edges, textures, and fine details within the medical images.
 
 Why It Helps:
+
 Image Quality Improvement: High-quality images are essential for accurate diagnosis. Denoising will help reduce unwanted artifacts that may hinder model performance or clinician interpretation.
 
 Model Performance: By improving the quality of medical images, the denoising model will boost the performance of other downstream tasks (e.g., disease detection or segmentation).
